@@ -1,0 +1,27 @@
+/* reset */
+* {
+    font-family: sans-serif;
+    color: #fff;
+}
+*::selection {
+    background: #f00;
+    color: #fff;
+}
+
+/* background */
+
+body {
+    background-color: #3600d9;
+}
+
+/* text */
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0 0 0.5em;
+}
+
+p {
+    margin: 0 0 1em;
+}
