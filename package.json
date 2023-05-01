@@ -1,16 +1,29 @@
 {
-  "name": "create-nginx-site",
-  "version": "4.2.0",
-  "description": "Create new NGINX website+SSL on Ubuntu",
+  "name": "create-ngnix-site",
+  "version": "0.4.2",
+  "description": "Create new NGINX website dir, config and issue SSL on Ubuntu",
   "bin": {
     "create-nginx-site": "./script/create-nginx-site.sh"
   },
-  "keywords": [],
+  "scripts": {
+    "install": "npm install -g ."
+  },
+  "keywords": [
+    "nginx",
+    "website",
+    "SSL",
+    "Ubuntu",
+    "server",
+    "web development",
+    "web hosting",
+    "configuration",
+    "nginx site"
+  ],
   "author": "ai-armageddon",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ai-armageddon/create-nginx-site.git"
   },
-  "homepage": "https://fafoscience.org/",
+  "homepage": "https://fafoscience.org/"
 }
