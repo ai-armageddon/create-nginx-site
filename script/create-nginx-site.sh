@@ -71,7 +71,7 @@ create_nginx_symlink() {
 run_certbot() {
     domain="$1"
 
-    certbot --nginx -d "$domain" -d "www.$domain" --redirect --non-interactive
+    certbot --nginx -d "$domain" -d "www.$domain" --redirect --non-interactive --expand
 
     echo "Obtained SSL certificates for domain: $domain"
 
