@@ -1,5 +1,5 @@
 {
-  "name": "create-ngnix-site",
+  "name": "create-nginx-site",
   "version": "0.4.2",
   "description": "Create new NGINX website dir, config and issue SSL on Ubuntu",
   "bin": {
